@@ -130,6 +130,7 @@ int main()
 
             // player(s) boundaries
             playerPos.y = Clamp(playerPos.y, 0, window_height - playerSize.y);
+            enemyPos.y = Clamp(enemyPos.y, 0, window_height - enemySize.y);
 
             // Pong bouncing
             if (pongPos.y - pongSize <= 0 || pongPos.y + pongSize >= window_height)
@@ -224,6 +225,9 @@ int main()
             // reset ball to prevent buggy points or showing old position
             pongPos.x = window_width / 2;
             pongPos.y = window_height / 2;
+
+            playerScore = 0;
+            enemyScore = 0;
 
             Vector2 mousePos = GetMousePosition();
 
