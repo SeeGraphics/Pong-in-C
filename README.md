@@ -1,8 +1,8 @@
 # 🕹️ Pong (Single Player)
 
 **Small 1-player Pong written in C using raylib.**
-This is my first game with multiple difficulty levels.
-*(Don’t bother with “Hard”… the AI is unbeatable!)*
+You can choose between 3 difficulty leves, however hard is basically unbeatable. 
+I might make a better version sometime.
 
 ---
 
